@@ -24,7 +24,9 @@
     <h1>3.4 $title = "PHP is interesting”. Put this </h1>
     <?php
     
-    ?>
+      ?>
+    <h1>3.5 $g1=5, $g2=4, $g3=5. These are the grades for 3 students in the course.</h1>
+  
 
 </body>
 </html>
