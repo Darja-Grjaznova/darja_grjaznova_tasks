@@ -46,7 +46,10 @@
     <td> 2 </th><th> John </th><th> $g3 </td>
     </tr>
     </table>";
-
+    ?>
+    <h1>Take a screenshot</h1>
+    <img src="Screenshot.png" >
+    <?php include "footer.php" 
     ?>
 
 </body>
