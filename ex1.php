@@ -21,12 +21,33 @@
     <?php
     echo date("d.m.Y")
     ?>
-    <h1>3.4 $title = "PHP is interesting”. Put this </h1>
+     <h1>3.4 Put this title </h1>
     <?php
-    
-      ?>
-    <h1>3.5 $g1=5, $g2=4, $g3=5. These are the grades for 3 students in the course.</h1>
-  
+    $title1 = "PHP is interesting";
+    echo "<h1>" . $title1 . "</h1>"; 
+    ?>
+    <h1>3.5 HTML table </h1>
+    <?php
+    $g1 = 5;
+    $g2 = 4;
+    $g3 = 5;
+    echo "
+    <table> 
+    <tr>
+    <th> S.N </th><th> Name </th><th> Grade </th> 
+    </tr>
+    <tr>
+    <td> 1 </th><th> Pekka </th><th> $g1 </td>
+    </tr>
+    <tr>
+    <td> 2 </th><th> Johanna </th><th> $g2 </td>
+    </tr>
+    <tr>
+    <td> 2 </th><th> John </th><th> $g3 </td>
+    </tr>
+    </table>";
+
+    ?>
 
 </body>
 </html>
